@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio || Programacion web</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+     <!--MENU-->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">FRID@</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#portafolio">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+    
+     <!--INICIO-->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="perfil.fcpm.png" alt="">
+            </div>
+            <h1>FRIDA PENAGOS</h1>
+            <h2>Ingeniero en Software</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+     </section>
+
+     <!--SOBRE MI-->
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Frida. Penagos</span> Actualmente me encuentro estudiando la carrera de Ingenieria en Software y curso el 5to cuatrimestre de mi carrera. Durante este periodo he aprendido acerca del desarrollo de bases de datos y a su vez la programacion orientada a objetos (POO) y asi mismo la programacion web.</p>
+
+            <div class="fila">
+                <!--datos persoanles-->
+
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Telefono</strong>
+                            (+52) 753 1085304
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            kialienhyung16@gmail.com
+                        </li>
+                        <li>
+                            <strong>GitHub</strong>
+                            https://github.com/Citlalli912
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Larazo Cardenas, Michoacan
+                        </li>
+                        <li>
+                            <strong>Centro de estudios</strong>
+                            Universidad Politecnica de Lázaro Cárdenas Michoacán
+                        </li>
+                    </ul>
+                </div> 
+
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+     </section>
+
+     <!--PROYECTOS-->
+     <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="proyecto"></div>
+        </div>
+     </section>
+</body>
+</html>  
